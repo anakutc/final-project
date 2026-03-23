@@ -299,6 +299,7 @@ opacity: 1;
   text-transform: uppercase;
 }
 
+
 @media(max-width:744px){
   .section4-div{
     flex-direction: column;
@@ -336,6 +337,19 @@ opacity: 1;
 
 .description p{
   padding-top: 50px;
+}
+
+@media (max-width:1024px){
+.description{
+  font-size: 15px;
+  
+}
+
+.ingredients img{
+  width: 95%;
+  height: 95%;
+}
+
 }
 
 @media (max-width: 744px){
