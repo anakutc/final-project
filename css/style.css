@@ -159,6 +159,28 @@ border-bottom: 4px solid #FF7420;
   text-transform: capitalize;
 }
 
+@media (max-width: 1024px){
+  .main-pic img{
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .right-div{
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .title{
+    font-size: 80px;
+    font-weight: 600;
+  }
+
+  .section3{
+    padding-left: 13%;
+    padding-top: 3%;
+  }
+}
+
 @media(max-width: 744px){
   .right-div{
     display: none;
