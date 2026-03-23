@@ -92,8 +92,31 @@ border-bottom: 4px solid #FF7420;
 }
 
 @media (max-width: 744px){
-  .nav a{
+ 
+  .navigation{
     display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    z-index: 10000;
+  }
+
+.navigation.active{
+    display: block;
+  }
+
+  .navigation ul {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .nav a {
+    display: block; 
+    font-size: 18px;
+    color: black;
   }
 
   .burger-menu{
@@ -108,8 +131,8 @@ border-bottom: 4px solid #FF7420;
     border-radius: 8px;
     cursor: pointer;
     order: 1;
-
   }
+
 
   .burger-menu span{
     background-color: black;
