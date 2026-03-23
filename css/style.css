@@ -295,4 +295,17 @@ opacity: 1;
   color: black;
   font-size: 13px;
   font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media(max-width:744px){
+  .section4-div{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .picture-box:active img {
+  transform: scale(0.95); 
+  filter: brightness(0.8);
+}
 }
