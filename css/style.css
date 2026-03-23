@@ -2,6 +2,12 @@
   display: none;
 }
 
+.visually-hidden{
+  display: none;
+}
+
+
+
 .section1{
   height: max-content;
   background-color: rgb(233, 233, 233);
